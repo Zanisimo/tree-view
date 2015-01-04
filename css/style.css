@@ -1,0 +1,17 @@
+.tree li {
+	list-style-type: none;
+	border-left: 1px solid #333;
+	padding-left: 35px;
+	position: relative;
+}
+
+.tree li:before {
+	content: '';
+	border-bottom: 1px solid #333;
+	width: 30px;
+	height: 20px;
+	position: absolute;
+	left: 0px;
+	top: -11px;
+	display: inline-block;
+}
